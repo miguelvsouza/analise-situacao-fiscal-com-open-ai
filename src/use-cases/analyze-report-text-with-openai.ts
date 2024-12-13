@@ -4,7 +4,7 @@ export interface ReportAnalysisResponse {
   hasPending: boolean // Indica se há pendências (exceto valores com exigibilidade suspensa)
   hasPendingTax: boolean // Indica se há impostos vencidos
   hasOmission: boolean // Indica se há omissões de declarações
-  hasFine: boolean // Indica se há multas por atrasos (ex.: MAED)
+  hasMaed: boolean // Indica se há multas por atrasos (ex.: MAED)
 }
 
 export async function analyzeReportTextWithOpenai(
