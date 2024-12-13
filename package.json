@@ -1,0 +1,23 @@
+{
+  "name": "analise-situacao-fiscal-com-open-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && tsx src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/pdf-parse": "^1.1.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "openai": "^4.76.3",
+    "pdf-parse": "^1.1.1"
+  }
+}
